@@ -7,6 +7,7 @@ public class LRUCache {
     final Node tail = new Node();
     Map<Integer, Node> map;
     int cacheCapacity;
+
     class Node {
         int key;
         int val;
